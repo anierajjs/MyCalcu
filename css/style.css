@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.display {
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    text-align: right;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 0;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: #d0d0d0;
+}
+
+.operator {
+    background-color: #ff9800;
+    color: #fff;
+}
+
+.equal {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.calculator {
+    margin: 0 auto;
+}
+
+.intro, .credit {
+    text-align: center;
+    padding: 10px;
+}
+
+.actions tr {
+    text-align: center;
+    height: 60px;
+}
+
+.intro, .credit {
+    padding: 10px;
+}
+
+.calculator {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.credit {
+    margin-top: 20px;
+}
+
